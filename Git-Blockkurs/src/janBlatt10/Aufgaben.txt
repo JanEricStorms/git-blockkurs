@@ -1,0 +1,29 @@
+Übungsaufgaben 10
+
+1)	Mit der equals Funktion. x.equals(y)true/false
+
+2)	b), c), d), f) und g).
+
+
+3)	System.copyArray(src, int srcPos, dest, int destPos, int number)
+
+4)	Es ist kein Objekt hinterlegt
+ 	
+5)	Int[][][] NameDesArray = new int[ int-Wert ][ int-Wert ][ int-Wert ];
+
+
+6)	String.lenght()  Bekommt die Länge des Strings
+String.split()  Teilt den String wenn bestimmtes Zeichen auftaucht
+String.charAt()  gibt das Einzelne Zeichen wieder welches an stelle n steht
+String.substring()  Schneidet eine gewisse anzahl von vorne ab und gibt neuen String zurück
+	
+7)	new
+
+8)	Es wir keine neue Klasse Bruch erzeugt sondern ein neues Objekt der Klasse Bruch
+
+
+9)	In dem man ein Mehrdimensionales Array erzeugt und zum Beispiel die Zweite Dimension 
+unterscheidliche längen aufweist.
+
+
+10)	Man fängt die Exception in einem Try Catch Block ab

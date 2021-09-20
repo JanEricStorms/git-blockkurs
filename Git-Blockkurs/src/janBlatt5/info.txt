@@ -1,0 +1,71 @@
+Aufgaben im Word Dokument
+
+Übungsblatt 5
+
+1)
+i = 97;  i für c = `0` ist 48;
+
+2)
+Eine Fehlermeldung eine NumberFormat Exception.
+
+3)
+a) 12
+b) 57
+c)12
+
+4)int i = 97;
+Int j = 98;
+char d = Kein Ergebnis, da c+1 kein Char ist;
+char e = Kein Ergebnis, c+1 ist kein Char;
+char f = ‘b‘;
+
+5)
+Int = 5;
+Int i = 0;
+while(i<x){
+	System.out.println(i);
+	I++;
+}
+
+6)
+Der Not Operator !;
+Boolean x = true;
+x != x;  x = false;
+
+7)
+Die erste Zeile der Funktion ist die Signatur bzw die Kopfzeile (zB. public static …)
+
+8)
+In einer Switch Anweisung können int, char, string und bytes so wie shorts  stehen.
+Jedoch könnte man ein paar andere Datentypen zu einem Integer Casten wodurch diese Auch funktionieren könnten. 
+
+9)
+a) Für Integer gibt es die Formatierungszeichen: %d und %x
+%d nimmt einen Wert, der nachstehen angegeben wird. Syso(“%d Euro  %d Cent“, 499, 99)  499 Euro 99 Cent
+%x ist für den Hexadezimalwert
+
+b) Für Double gibt es die Formatierungszeichen: %f und %e
+%f vor das f kommt ein Punkt und eine Zahl die Angibt auf wie viele Nachkommastellen gerundet wird
+ %e bei %e verhält sich das genauso wie bei %f nur das %e die Ausgabe in exponential schreibeweise ausgibt
+
+c) Für Strings gibt es die Formatierungszeichen: %s
+%s gibt den Nachstehenden String wieder
+
+d) Formatierungszeichen Integer Vorgabe
+.printf(“%-5d“, 123)
+
+e) Formatierrungszeichen String Vorgaben 
+.printf(“%-20s“ , “Hallo“)
+
+10)
+Integer.parseInt(“String“)
+Der String sollte dabei natürlich eine Zahl erhalten also “50“, bei “String“ kommt es zu einer NumberFormat exeption
+11)
+Die for-Schleife wird kein mal ausgeführt, weil die Bedingung zu beginn false ist.
+
+12)
+Bei for(; ;) handelt es sich um eine Endlosschleife, die mit while(true) gleichzusetzen ist.
+
+
+
+
