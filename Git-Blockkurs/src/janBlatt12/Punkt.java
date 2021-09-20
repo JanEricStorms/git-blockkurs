@@ -1,32 +1,42 @@
 package janBlatt12;
 
 public class Punkt {
-	private int x;
-	private int y;
+	private double x;
+	private double y;
 	
-	public Punkt(int x, int y) {
+	public Punkt(double x, double y) {
 		this.x = x;
 		this.y = y;
 	}
+	public Punkt(Punkt p) {
+		this.x = p.x;
+		this.y = p.y;
+		
+	}
 	
-	public int getX() {
+	public double getX() {
 		return x;
 	}
 	
-	public int getY() {
+	public double getY() {
 		return y;
 	}
 	
-	public void setX(int n) {
+	public void setX(double n) {
 		this.x = n;
 	}
 	
-	public void setY(int n) {
+	public void setY(double n) {
 		this.y = n;
 	}
 	
 	public String toString() {
 		return "("+this.x + "|" + this.y+")";
+	}
+	
+	public void schiebe(double dx, double dy) {
+		this.x = this.x + dx;
+		this.y = this.y + dy;
 	}
 	
 }

@@ -12,6 +12,10 @@ public class GeradeZahl {
 		}
 	}
 	
+	public GeradeZahl(GeradeZahl g) {
+		this.n = g.n;
+	}
+	
 	public String toString() {
 		
 		return ""+this.n;
@@ -29,6 +33,29 @@ public class GeradeZahl {
 		}
 		return n;
 	}
+	
+	public GeradeZahl getNachfolger() {
+		
+		GeradeZahl erg = new GeradeZahl((this.n + 2));
+		
+		return erg;
+	}
+	
+	public GeradeZahl getSum(GeradeZahl g2) {
+		
+		GeradeZahl erg = new GeradeZahl((this.n + g2.n));
+		
+		
+		return erg;
+	}
+	
+	public GeradeZahl getProd(GeradeZahl g2) {
+	
+		GeradeZahl erg = new GeradeZahl((this.n * g2.n));
+		
+		return erg;
+	}
+	
 	
 	
 }

@@ -26,6 +26,11 @@ public class Geburtstag {
 			}
 		
 	}
+	
+	public Geburtstag(Geburtstag g) {
+		this.monat = g.monat;
+		this.tag = g.tag;
+	}
 	 
 	private int[] m1 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31};
 	private int[] m2 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29};
@@ -87,7 +92,7 @@ public class Geburtstag {
 	}
 	
 	private static int checkMonat(String s) {
-		String[] M = {"Januar","Februar","März","April","Mai","Juni","Juli","August","Septemer","Oktober","Novembver","Dezember"};
+		String[] M = {"Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","Novembver","Dezember"};
 		for(int i=0;i<M.length;i++) {
 			if(s.equals(M[i])) {
 				return i;
@@ -113,5 +118,12 @@ public class Geburtstag {
 		return this.monat;
 	}
 	
+	public boolean equals(Geburtstag g2) {
+		if(this.monat == g2.monat && this.tag == g2.tag) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 	
 }
