@@ -8,9 +8,9 @@ public class Aufgabe6 {
 		// TODO Auto-generated method stub
 		int[] feld = getParameters();
 		
-		/*for(int i = 0; i<feld.length;i++) {
+		for(int i = 0; i<feld.length;i++) {
 			System.out.println(feld[i]);
-		}*/
+		}
 		
 	}
 	

@@ -1,0 +1,11 @@
+Übungsblatt 14
+1)	Kapselung, Vererbung, Polymorpie
+2)	Ja, das wird zum Beispiel im Copy Konstruktor gemacht
+3)	Ja ein Objekt, darf sich selber als Attribut besitzen, die Konstruktion heißt verkettung.
+4)	Was Komplexe Zahl ?
+5)	Bei der Variabelen handelt es sich um eine Konstante. Man kann sie in der Selben Klasse (hier Element) unter pos aufrufen. Aus anderen Klassen muss man den Klassennamen davor schreiben also Element.pos.
+6)	0.0
+7)	a=“abcdef“ & b=“abc“
+8)	x[] = {4,2,3} y[]={1,2,3}
+9)	Die Invariante muss immer am ende jeder Methode erfüllt sein
+10)	Ein Attribut sollte nach Möglichkeit immer private sein, außer man hat keine Einschränkungen die das Attribut betrifft.
