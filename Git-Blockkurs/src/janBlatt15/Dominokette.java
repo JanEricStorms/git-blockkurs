@@ -13,7 +13,7 @@ public class Dominokette {
 		String s ="";
 		for(int i = 0; i<this.arr.length;i++) {
 			Dominostein d = this.arr[i];
-			s = s+"["+d.getX()+","+d.getY()+"] ";
+			s = s+"["+d.getX()+"|"+d.getY()+"] ";
 		}
 		return s;
 	}

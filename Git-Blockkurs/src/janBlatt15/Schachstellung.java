@@ -2,7 +2,7 @@ package janBlatt15;
 
 public class Schachstellung {
 	
-	private String[][] feld;
+	private final String[][] feld;
 	
 	public Schachstellung() {
 		 this.feld = new String[8][8];

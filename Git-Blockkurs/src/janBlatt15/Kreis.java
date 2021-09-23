@@ -4,7 +4,7 @@ import janBlatt12.Punkt;
 
 public class Kreis {
 	private double radius;
-	private Punkt mittelpunkt = new Punkt(0,0 );
+	private Punkt mittelpunkt = new Punkt(0,0);
 	
 	public Kreis(double r,Punkt m) {
 		this.radius = r;
@@ -22,7 +22,7 @@ public class Kreis {
 	}
 	
 	public void setRadius(double r) {
-		this.radius = r;
+		this.radius = Math.abs(r);
 	}
 	
 	public Punkt getMittelpunkt() {
