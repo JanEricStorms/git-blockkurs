@@ -6,7 +6,7 @@ import janBlatt12.Punkt;
 public class TestProgFuerAufgabe15 {
 	
 	public static void main(String[] args) {
-		Dominostein d = new Dominostein(5,6);
+		/*Dominostein d = new Dominostein(5,6);
 		Dominostein d2 = new Dominostein(2,3);
 		Dominostein d3 = new Dominostein(6,4);
 		Dominostein d4 = new Dominostein(4,3);
@@ -21,6 +21,9 @@ public class TestProgFuerAufgabe15 {
 		dk.fuegeLinksAn(d2);
 		System.out.println(dk);
 		dk.fuegeRechstAn(d4);
-		System.out.println(d);
+		System.out.println(d);*/
+		Schachstellung Ss = new Schachstellung();
+		Ss.setzeSchachstellung("b22K24l28B23k66");
+		System.out.println(Ss);
 	}
 }
